@@ -1,0 +1,245 @@
+/**
+ * CUSTOM CSS
+ *
+ * Here you can add your custom CSS code.
+ */
+
+/*# sourceMappingURL=custom.css.map */
+
+body {
+  font-family: 'Signika' !important;
+  color: #505050;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #313131;
+}
+
+.c-brand__title {
+  font-family: 'Merriweather' !important;
+}
+
+.c-brand__sub-title {
+  font-family: 'Signika' !important;
+}
+
+a:hover, a:focus, a:active, .t-link-container:hover .t-link-container__item {
+  color: #2196F3;
+}
+
+.t-social-button:hover .fa {
+  color: #2196F3;
+}
+
+a, .t-link-container .t-link-container__item, .t-link-container:hover .t-link-container__item--blended {
+  color: #2196F3;
+}
+
+/**
+ * Container
+ */
+
+.o-container {
+  max-width: 1180px;
+}
+
+/**
+ * Left coloumn backgrounds
+ */
+
+@media (min-width: 1024px) {
+  .t-section, .t-section__header, .t-section--header .t-section__header {
+    background: #2196F3;
+    background: #1565C0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .t-section:nth-child(even), .t-section:nth-child(even) .t-section__header {
+    background: #1E88E5;
+    background: #0D47A1;
+  }
+}
+
+@media (min-width: 0px) {
+  .c-social-button {
+      width: 38px;
+      height: 38px;
+      font-size: 1rem !important;
+      line-height: 2.6 !important;
+      border-radius: 3px;
+  }
+}
+
+/**
+ * Left coloumn headings
+ */
+
+@media (min-width: 1024px) {
+  .t-section__header .o-section__heading {
+    color: #fff;
+  }
+}
+
+@media (min-width: 1024px) {
+  .t-section__header .o-section__description {
+    color: #d4e2ef;
+  }
+}
+
+/**
+ * Main coloumn
+ */
+
+@media (min-width: 1024px) {
+  .t-section:nth-child(even) .t-section__content {
+    background: #fbfbfb;
+  }
+}
+
+/**
+ * Site title
+ */
+
+.t-title__first-word {
+  text-transform: none;
+}
+
+.t-title__second-word {
+  color: #2196f3;
+  text-transform: none;
+}
+
+/**
+ * Site colors
+ */
+
+.t-primary-color, .t-primary-color-line {
+  color: #2196f3;
+}
+
+.t-primary-bg, .t-primary-color-line {
+  background: #2196f3;
+}
+
+/**
+ * Site header
+ */
+
+@media (min-width: 1024px) {
+  .c-header__header, .c-header__content {
+    height: 70vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .c-header__header, .c-header__content {
+    height: 80vh;
+  }
+}
+
+/**
+ * Font sizes
+ */
+
+/*@media (min-width: 1024px) {*/
+  .o-content__body h4, .o-content__body address {
+    font-size: 1.22rem;
+  }
+
+  .o-content P {
+    font-size: 1.22rem;
+  }
+
+  .c-work__title {
+    font-size: 1.22rem;
+  }
+
+  .c-work__location {
+    opacity: .6;
+    font-size: 1rem;
+  }
+/*}*/
+
+.c-main-container {
+  display: block !important;
+}
+
+.a-progress-bar {
+  width: 80%;
+}
+
+.c-social-button {
+  display: block;
+  text-align: center;
+  width: auto;
+  font-size: 1rem !important;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #c6c6c6;
+}
+
+.c-sticky-header {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  z-index: 4;
+  opacity: 0;
+  top: -65px;
+  transition: opacity 0.2s ease, top 0.2s ease;
+  background: #fff;
+  border-bottom: solid 1px #cddeec;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.075);
+}
+
+.c-sticky-header__inner {
+  height: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.c-sticky-header__inner__avatar {
+  height: 100%;
+  float: left;
+}
+
+.c-sticky-header__inner__avatar img {
+  height: 40px;
+  margin-top: 10px;
+  width: 40px;
+  margin-left: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  .c-sticky-header__inner__avatar img {
+    margin-left: 3.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .c-sticky-header__inner__avatar img {
+    margin-left: 5.25rem;
+  }
+}
+
+.c-sticky-header__inner__button {
+  width: 160px;
+  right: 0;
+  float: right;
+  margin-top: 10px;
+  margin-right: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  .c-sticky-header__inner__button {
+    margin-right: 3.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .c-sticky-header__inner__button {
+    margin-right: 5.25rem;
+  }
+}
+
+
