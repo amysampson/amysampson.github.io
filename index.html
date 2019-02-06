@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
 
     <!-- Work Sans Font-->
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700" rel="stylesheet">
 
     <!-- Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -21,9 +21,7 @@
             -moz-osx-font-smoothing: grayscale;
         }
 
-        .work-sans {
-            font-family: "Work Sans", sans-serif;
-        }
+        .work-sans { font-family: "Work Sans", sans-serif; }
 
         /* Uses colours from: https://yeun.github.io/open-color/ */
         .bg-gradient {
@@ -36,25 +34,28 @@
         }
         
         /* Uses colours from: https://yeun.github.io/open-color/ */
-        .color-blue {
-            color: #1864ab;
-        }
+        .color-blue-9 { color: #1864ab; }
+        .color-blue-7 { color: #1c7ed6; }
+        .color-gray-8 { color: #343a40; }
+        .color-gray-6 { color: #868e96; }
+
+        .tracked-tight { letter-spacing: -.02em; }
     </style>
 </head>
 <body class="font-smoothing work-sans bg-gradient">
-    <header class="w-100 vh-100 pa1 pa2-m pa2-m pa3-l">
+    <header class="w-100 vh-100 pa1 pa2-m pa3-m pa4-l">
         <div class="dt ph3 ph4-m ph6-l pv5 pv6-ns bg-white w-100 h-100">
-            <center class="dtc v-mid tl">
-                <h1 class="color-blue ma0 fw7 mb3 f2 f1-ns f1-m lh-solid tracked-tight" data-action="cursor">Amy Sampson</h1>
-                <h2 class="color-blue normal fw4 f3 f2-ns f2-m mv0 lh-title tracked-tight">Educational development specialist &amp; consulatant.</h2>
-                <address class="fs-normal" style="visibility: visible; animation-name: fadeInUp;">
+            <div class="dtc v-mid tl">
+                <h1 class="color-gray-9 ma0 fw7 mb3 f2 f1-ns f1-m lh-solid tracked-tight">Amy Sampson</h1>
+                <h2 class="color-gray-6 normal fw4 f3 f2-ns f2-m mv0 lh-title tracked-tight">Educational development specialist &amp; consultant</h2>
+                <address class="fs-normal">
                     <ul class="list pa0 mv4 lh-copy">
-                        <li class="dib mr3 fw5 f5"><a class="link underline-hover color-blue" href="mailto:amysampson@live.co.uk"><abbr title="Email"><i class="fa fa-fw fa-envelope" aria-hidden="true"></i></abbr>Email</a></li>
-                        <li class="dib mr3 fw5 f5"><a class="link underline-hover color-blue" href="https://twitter.com/amysampsonuk"><abbr title="Twitter"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i></abbr>Twitter</a></li>
-                        <li class="dib mr3 fw5 f5"><a class="link underline-hover color-blue" href="https://uk.linkedin.com/in/amysampson"><abbr title="LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i></abbr>LinkedIn</a></li>
+                        <li class="dib mr3 fw5 f5"><a class="link underline-hover color-blue-7" href="mailto:amysampson@live.co.uk"><abbr title="Email"><i class="fa fa-fw fa-envelope" aria-hidden="true"></i></abbr>Email</a></li>
+                        <li class="dib mr3 fw5 f5"><a class="link underline-hover color-blue-7" href="https://twitter.com/amysampsonuk"><abbr title="Twitter"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i></abbr>Twitter</a></li>
+                        <li class="dib mr3 fw5 f5"><a class="link underline-hover color-blue-7" href="https://uk.linkedin.com/in/amysampson"><abbr title="LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i></abbr>LinkedIn</a></li>
                     </ul>
                 </address>
-            </center>
+            </div>
         </div>
     </header>
 </body>
